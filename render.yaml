@@ -2,7 +2,7 @@
 services:
   # The PostgreSQL Database
   - name: me-api-db
-    type: postgresql # Change this line
+    type: postgres # Change this line
     psqlVersion: 15
     plan: free
 
