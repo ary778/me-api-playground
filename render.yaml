@@ -1,7 +1,7 @@
 services:
   # The PostgreSQL Database
   - name: me-api-db
-    type: psql
+    type: postgres
     psqlVersion: 15
     plan: free
 
