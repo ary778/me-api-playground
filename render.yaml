@@ -1,12 +1,10 @@
-# render.yaml
-services:
-  # The PostgreSQL Database
+databases:
   - name: me-api-db
-    type: postgres # Change this line
-    psqlVersion: 15
+    databaseName: me_api_db_instance # You can name this what you want
+    user: me_api_user # You can name this what you want
     plan: free
 
-  # The Django Web Service
+services:
   - name: me-api-backend
     type: web
     plan: free
@@ -19,6 +17,6 @@ services:
           name: me-api-db
           property: connectionString
       - key: SECRET_KEY
-        generateValue: true # Render will generate a random secret key
+        generateValue: true
       - key: WEB_CONCURRENCY
         value: 4
