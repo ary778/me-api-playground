@@ -1,7 +1,8 @@
+# render.yaml
 services:
   # The PostgreSQL Database
   - name: me-api-db
-    type: postgres
+    type: postgresql # Change this line
     psqlVersion: 15
     plan: free
 
