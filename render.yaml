@@ -1,3 +1,7 @@
+databases:
+  - name: me-api-backend-db
+    plan: free
+
 services:
   - name: me-api-backend
     type: web
@@ -14,8 +18,3 @@ services:
         generateValue: true
       - key: WEB_CONCURRENCY
         value: 4
-  - name: me-api-backend-db
-    type: database
-    plan: free
-    databaseName: me-api-backend-db 
-    ipAllowList: [] 
