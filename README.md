@@ -1,5 +1,5 @@
 Me API Playground:
-This is the backend API for my personal portfolio website, built with Django and Django REST Framework. It serves all the necessary data for my professional profile, including project details, skills, and contact information.
+This is the backend API for an assessment portfolio website, built with Django and Django REST Framework. It serves all the necessary data for my professional profile, including project details, skills, and contact information.
 
 🌐 Live Links
 Frontend URL: [https://me-api-playground-frontend-m54p.onrender.com/index.html]
