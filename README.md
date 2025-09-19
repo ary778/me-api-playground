@@ -1,4 +1,4 @@
-Me API Playground
+Me API Playground:
 This is the backend API for my personal portfolio website, built with Django and Django REST Framework. It serves all the necessary data for my professional profile, including project details, skills, and contact information.
 
 🌐 Live Links
