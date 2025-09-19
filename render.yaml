@@ -8,8 +8,7 @@ services:
     plan: free
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn core.wsgi"
-    pre-deploy: "python manage.py migrate"  
+    startCommand: "gunicorn core.wsgi" 
     envVars:
       - key: DATABASE_URL
         fromDatabase:
