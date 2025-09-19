@@ -1,10 +1,10 @@
-<h1>Me API Playground 🚀</h1>
+<h1>Me API Playground </h1>
 
 <p>This is the backend API for an assessment portfolio website, built with Django and Django REST Framework. It serves all the necessary data for my professional profile, including project details, skills, and contact information.</p>
 
 <hr>
 
-<h2>🌐 Live Links</h2>
+<h2>Live Links</h2>
 <ul>
     <li><strong>Frontend URL</strong>: <a href="https://me-api-playground-frontend-m54p.onrender.com/index.html">https://me-api-playground-frontend-m54p.onrender.com/index.html</a></li>
     <li><strong>Backend API URL</strong>: <a href="https://me-api-backend-ie05.onrender.com/">https://me-api-backend-ie05.onrender.com/</a></li>
@@ -12,7 +12,7 @@
 
 <hr>
 
-<h2>🏗️ Architecture</h2>
+<h2>Architecture</h2>
 <p>The project uses a modern, decoupled architecture. The backend and frontend are separate applications, and the database is a managed service.</p>
 <ul>
     <li><strong>Frontend</strong>: A static website built with HTML, CSS, and vanilla JavaScript. The code for the frontend is located in a separate repository.<br>
@@ -25,7 +25,7 @@
 
 <hr>
 
-<h2>⚙️ Setup and Installation</h2>
+<h2>Setup and Installation</h2>
 <h3>Local Development</h3>
 <p><strong>Prerequisites</strong>:</p>
 <ul>
@@ -64,7 +64,7 @@ DB_PASSWORD='your_db_password'</code></pre>
 
 <hr>
 
-<h2>🗄️ Database Schema</h2>
+<h2>Database Schema</h2>
 <p>The API is centered around a single <strong>Profile</strong> model which has one-to-many relationships with all other models.</p>
 <ul>
     <li><strong>Profile</strong>: The core model for personal information.
@@ -130,7 +130,7 @@ DB_PASSWORD='your_db_password'</code></pre>
 
 <hr>
 
-<h2>📟 API Usage (cURL Examples)</h2>
+<h2>API Usage (cURL Examples)</h2>
 <p>Here are a few examples of how to interact with the API.</p>
 <p><strong>Get All Profile Information</strong></p>
 <pre><code>curl https://me-api-backend-ie05.onrender.com/api/profile/</code></pre>
@@ -139,7 +139,7 @@ DB_PASSWORD='your_db_password'</code></pre>
 
 <hr>
 
-<h2>⚠️ Known Limitations</h2>
+<h2>Known Limitations</h2>
 <ul>
     <li><strong>No Authentication</strong>: All API endpoints are public and do not require authentication. This is intentional for a public portfolio but would need to be added for a multi-user application.</li>
     <li><strong>Rate Limiting</strong>: No rate limiting is currently implemented.</li>
@@ -148,9 +148,9 @@ DB_PASSWORD='your_db_password'</code></pre>
 
 <hr>
 
-<h2>📫 Contact & Resume</h2>
+<h2>Contact & Resume</h2>
 <ul>
-    <li><strong>Resume</strong>: <a href="https://drive.google.com/file/d/17_eFRMvHZO9W0DeLpoNdTZQ-d1Ea_nRO/view?usp=drive_link">View My Resume</a></li>
+    <li><strong>Resume</strong>: <a href="https://drive.google.com/file/d/17_eFRMvHZO9W0DeLpoNdTZQ-d1Ea_nRO/view?usp=drive_link">Resume</a></li>
     <li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/aryansuthar">linkedin.com/in/aryansuthar</a></li>
     <li><strong>Email</strong>: <a href="mailto:aryansuthar71@gmail.com">aryansuthar71@gmail.com</a></li>
 </ul>
